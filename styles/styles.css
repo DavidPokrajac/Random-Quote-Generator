@@ -7,4 +7,41 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: firebrick;
+}
+
+.container{
+  width: 45%;
+  height: 230px;
+  padding: 1em;
+  background-color: tomato;
+  text-align: center;
+}
+
+button{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1em;
+  padding: 10px;
+  background-color: indianred;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.container #quote{
+  text-align: left;
+  font-size: 1.5em;
+  margin: 2em 0.2em;
+  line-height: 1.3em;
+  color: #fff;
+}
+
+.container #author{
+  text-align: right;
+  font-size: 1.2em;
+  color: #fff;
 }
